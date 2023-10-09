@@ -5,7 +5,7 @@ from random import choice as rc
 from faker import Faker
 
 from app import app
-from models import db, Message
+from models import Message, db
 
 fake = Faker()
 
